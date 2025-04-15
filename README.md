@@ -31,10 +31,9 @@ The application runs on `http://localhost:8080` by default. Here are the availab
 - **Body**: Raw JSON
 ```json
 {
-  "title": "Example Game",
-  "developer": "Example Developer",
-  "releaseYear": 2023,
-  "genre": "Action"
+  "title": "Elden Ring",
+  "genre": "Action RPG",
+  "platform": "Playstation"
 }
 ```
 - **Postman**: Create a new POST request, add the header, select Body > raw > JSON, and paste the JSON data
@@ -46,10 +45,9 @@ The application runs on `http://localhost:8080` by default. Here are the availab
 - **Body**: Raw JSON
 ```json
 {
-  "title": "Updated Game",
-  "developer": "Updated Developer",
-  "releaseYear": 2024,
-  "genre": "Adventure"
+  "title": "Elden Ring - Updated",
+  "genre": "Open World RPG",
+  "platform": "PC"
 }
 ```
 - **Postman**: Create a new PUT request, add the header, select Body > raw > JSON, and paste the JSON data
