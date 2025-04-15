@@ -3,6 +3,11 @@
 ## Description
 Game Library API is a Spring Boot application that provides RESTful endpoints to manage a collection of games. This API allows users to create, read, update, and delete game records from the library.
 
+## Repository Branches
+This repository has two branches:
+- **no-database** (default): Uses an in-memory list implementation for game storage
+- **h2-database**: Uses H2 database with JPA for persistent game storage
+
 ## How to Run
 To run the application, use the Maven wrapper with the Spring Boot plugin:
 
